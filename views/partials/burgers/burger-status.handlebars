@@ -1,0 +1,11 @@
+<li>
+	{{burger_name}}
+
+	<button class="change-status" data-id="{{id}}" data-newsleep="{{burger_eaten}}">
+		{{#if burger_eaten}}Burger was devoured!
+		{{else}}Eat the burger!
+		{{/if}}
+	</button>
+
+	<button class="devour-burger" data-id="{{this.id}}">DEVOUR!</button>
+</li>
